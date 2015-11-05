@@ -1,0 +1,21 @@
+.tabs {
+	.nav-link {
+		border-radius: 0px;
+		color: lightblue;
+
+
+		&.active, &:hover {
+			background: rgba(lightblue, 0.5);
+			color: white;
+			border-color: lightblue;
+		}
+	}
+
+	.nav-item {
+		margin-top: -1px;
+		
+		& + .nav-item {
+			margin-left: -1px;
+		}
+	}
+}

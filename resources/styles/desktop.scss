@@ -1,0 +1,33 @@
+@import 'bootstrap';
+
+$color: lightblue;
+
+body {
+	background: black;
+	color: $color;
+
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.app-container {
+	height: 100vh;
+	width: 100vw;
+	padding-top: 	$grid-gutter-width / 2;
+	padding-bottom: $grid-gutter-width / 2;
+}
+
+.app-row {
+	height: calc(50vh - #{$grid-gutter-width / 2});
+}
+
+.app-section-container {
+	padding: $grid-gutter-width / 2;
+	display: flex;
+
+	.app-section-container-inner {
+		flex: 1;
+		padding: 0;
+		border-radius: 2px;
+		border: 1px solid $color;
+	}
+}
