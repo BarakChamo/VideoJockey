@@ -1,3 +1,3 @@
 # VideoJockey
 
-A web-based, audio-reactive video mixer and visualizer.
+A web-based, audio-reactive video mixer and visualizer (work in progress).
